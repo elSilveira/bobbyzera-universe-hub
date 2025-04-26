@@ -14,23 +14,23 @@ const GallerySection = () => {
   const images = [
     {
       id: "1",
-      url: "https://static-cdn.jtvnw.net/jtv_user_pictures/5370f5c8-002c-4d8a-a9f2-4a790eccbbd9-profile_banner-480.png",
-      alt: "Bobbyzera Twitch Banner",
+      url: "/images/bobbyzera_banner.jpeg",
+      alt: "Bobbyzera Banner",
     },
     {
       id: "2",
-      url: "https://static-cdn.jtvnw.net/jtv_user_pictures/2e06e058-d1c1-4efe-adea-3fa7080e3058-profile_image-300x300.png",
-      alt: "Bobbyzera Twitch Profile",
+      url: "/images/bobbyzera_profile.jpeg",
+      alt: "Bobbyzera Profile",
     },
     {
       id: "3",
-      url: "https://pbs.twimg.com/profile_banners/4165578693/1608165604/1500x500",
-      alt: "Bobbyzera Twitter Banner",
+      url: "https://static-cdn.jtvnw.net/jtv_user_pictures/bobbyzera-profile_banner-f4f4f4f4f4f4-480.png",
+      alt: "Bobbyzera Twitch Banner",
     },
     {
       id: "4",
-      url: "https://scontent.fcgh19-1.fna.fbcdn.net/v/t39.30808-6/305293629_5469837149790934_8106361247937375336_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=dS5ne4bh-BAAX8q0BN6&_nc_ht=scontent.fcgh19-1.fna&oh=00_AfDBcyWjLUmTxovSfaQsV8_4Qdl5tVPCYqgCiAgRntkLOg&oe=662386CF",
-      alt: "Bobbyzera Facebook Image",
+      url: "https://static-cdn.jtvnw.net/jtv_user_pictures/bobbyzera-profile_image-f4f4f4f4f4f4-300x300.png",
+      alt: "Bobbyzera Twitch Profile",
     }
   ];
 
@@ -44,11 +44,11 @@ const GallerySection = () => {
         </h2>
 
         <div className="flex flex-col items-center gap-6">
-          <div className="relative w-full max-w-3xl mx-auto rounded-lg overflow-hidden aspect-video">
+          <div className="relative w-full max-w-3xl mx-auto rounded-lg overflow-hidden">
             <img 
               src={selectedImage.url} 
               alt={selectedImage.alt} 
-              className="w-full h-full object-cover"
+              className="w-full h-auto object-contain"
             />
           </div>
 
@@ -69,7 +69,7 @@ const GallerySection = () => {
                           <img 
                             src={image.url} 
                             alt={image.alt} 
-                            className="object-cover w-full h-full hover:scale-110 transition-transform"
+                            className="object-contain w-full h-full hover:scale-110 transition-transform"
                           />
                         </div>
                       </CardContent>

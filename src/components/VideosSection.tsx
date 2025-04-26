@@ -5,12 +5,14 @@ const VideosSection = () => {
   const videos = [
     {
       id: "1",
-      embedUrl: "https://www.youtube.com/embed/videoseries?list=PLyHh5_iRoWw5YCZpZmR0x6KgzJQa1u3Jz",
+      embedUrl: "https://www.youtube.com/embed/n6DKtSM7BE4",
+      thumbnailUrl: "/images/bobbyzera_youtube_thumbnail.jpg",
       title: "Latest Videos",
     },
     {
       id: "2",
       embedUrl: "https://player.twitch.tv/?channel=bobbyzera&parent=localhost",
+      thumbnailUrl: "/images/bobbyzera_twitch_thumbnail.jpg",
       title: "Live Stream",
     },
   ];
@@ -32,6 +34,7 @@ const VideosSection = () => {
                     className="absolute inset-0 w-full h-full"
                     allowFullScreen
                     title={video.title}
+                    poster={video.thumbnailUrl}
                   />
                 </div>
               </CardContent>
