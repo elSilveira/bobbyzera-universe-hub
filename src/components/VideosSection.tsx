@@ -5,12 +5,12 @@ const VideosSection = () => {
   const videos = [
     {
       id: "1",
-      embedUrl: "https://www.youtube.com/embed/videoseries?list=UUunAecRhgjAK-l9kbVuVtCw",
+      embedUrl: "https://www.youtube.com/embed/videoseries?list=PLyHh5_iRoWw5YCZpZmR0x6KgzJQa1u3Jz",
       title: "Latest Videos",
     },
     {
       id: "2",
-      embedUrl: "https://player.twitch.tv/?channel=bobbyzera&parent=lovable.dev&parent=lovable.app&parent=localhost",
+      embedUrl: "https://player.twitch.tv/?channel=bobbyzera&parent=localhost",
       title: "Live Stream",
     },
   ];

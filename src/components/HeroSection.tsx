@@ -7,7 +7,7 @@ const HeroSection = () => {
     { icon: Twitch, href: "https://www.twitch.tv/bobbyzera", label: "Twitch" },
     { icon: Youtube, href: "https://www.youtube.com/channel/UCunAecRhgjAK-l9kbVuVtCw", label: "YouTube" },
     { icon: Instagram, href: "https://www.instagram.com/bobbyzeraa", label: "Instagram" },
-    { icon: Twitter, href: "https://x.com/bobbyzera", label: "Twitter" },
+    { icon: Twitter, href: "https://x.com/bobbyzera", label: "X" },
     { icon: Facebook, href: "https://www.facebook.com/bobbyzeraa", label: "Facebook" },
     { icon: Link, href: "https://www.tiktok.com/@bobbyzeraa", label: "TikTok" },
   ];
