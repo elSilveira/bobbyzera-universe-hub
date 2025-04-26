@@ -10,7 +10,7 @@ const VideosSection = () => {
     },
     {
       id: "2",
-      embedUrl: "https://player.twitch.tv/?channel=bobbyzera&parent=localhost&parent=lovable.dev",
+      embedUrl: "https://player.twitch.tv/?channel=bobbyzera&parent=lovable.dev&parent=lovable.app&parent=localhost",
       title: "Live Stream",
     },
   ];
@@ -31,6 +31,7 @@ const VideosSection = () => {
                     src={video.embedUrl}
                     className="absolute inset-0 w-full h-full"
                     allowFullScreen
+                    title={video.title}
                   />
                 </div>
               </CardContent>
