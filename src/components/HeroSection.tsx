@@ -1,5 +1,5 @@
 
-import { Twitch, Youtube, Instagram, Twitter, Facebook } from "lucide-react";
+import { Twitch, Youtube, Instagram, Twitter, Facebook, Link } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const HeroSection = () => {
