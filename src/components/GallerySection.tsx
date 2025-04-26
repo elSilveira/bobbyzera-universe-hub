@@ -20,7 +20,7 @@ const GallerySection = () => {
     {
       id: "2",
       url: "https://static-cdn.jtvnw.net/jtv_user_pictures/2e06e058-d1c1-4efe-adea-3fa7080e3058-profile_image-300x300.png",
-      alt: "Bobbyzera Profile",
+      alt: "Bobbyzera Twitch Profile",
     },
     {
       id: "3",
